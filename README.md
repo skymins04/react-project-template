@@ -11,6 +11,7 @@ This template includes the following packages.
 - ESLint
 - Prettier
 - dotenv
+- SCSS
 
 ## How to Use
 
