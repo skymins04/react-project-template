@@ -4,14 +4,17 @@ Templates for creating React projects.
 
 This template includes the following packages.
 
-- React
 - Typescript
+- React
+- Redux
+- SCSS
+- dotenv
+- i18next
+- axios
 - Webpack 5
 - Bebel
 - ESLint
 - Prettier
-- dotenv
-- SCSS
 
 ## How to Use
 
