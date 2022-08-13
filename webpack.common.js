@@ -7,6 +7,14 @@ module.exports = {
   entry: path.resolve(__dirname, ".", "src", "index.tsx"),
   resolve: {
     extensions: [".js", ".ts", ".jsx", ".tsx"],
+    alias: {
+      "@i18n": path.resolve(__dirname, ".", "src", "i18n"),
+      "@Component": path.resolve(__dirname, ".", "src", "components"),
+      "@Hook": path.resolve(__dirname, ".", "src", "hooks"),
+      "@Lib": path.resolve(__dirname, ".", "src", "libs"),
+      "@Redux": path.resolve(__dirname, ".", "src", "redux"),
+      "@Layout": path.resolve(__dirname, ".", "src", "layouts"),
+    },
   },
   output: {
     path: path.resolve(__dirname, ".", "dist"),
